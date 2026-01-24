@@ -1,6 +1,6 @@
 // Declaring different variables of different data types
-let firstName = 'Jedan' // first name of a person
-let lastName = 'Academy' // last name of a person
+let firstName = 'Filpos' // first name of a person
+let lastName = 'Seife' // last name of a person
 let country = 'Ethiopia' // country
 let city = 'Addis Ababa' // capital city
 let age = 100 // age in years
@@ -13,5 +13,5 @@ const PI = 3.14 // geometrical constant
 
 // Variables can also be declaring in one line separated by comma
 let name = 'Jeadan', //name of a person
-  job = '',
+  job = 'Educated',
   live = 'Ethiopia'
