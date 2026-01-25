@@ -6,4 +6,4 @@ console.log(string.substring(4))    // Script
 let country = "Ethiopean"
 console.log(country.substring(0, 3))   // Eth
 console.log(country.substring(3, 7))   // iope
-console.log(country.substring(0, 8))   // iopean
+console.log(country.substring(0, 8))   // Ethiopea
