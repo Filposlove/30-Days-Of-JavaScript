@@ -9,4 +9,3 @@ console.log(string.indexOf('a'))          // 4
 console.log(string.indexOf('JavaScript')) // 11
 console.log(string.indexOf('Script'))     //15
 console.log(string.indexOf('script'))     // -1
-*/
