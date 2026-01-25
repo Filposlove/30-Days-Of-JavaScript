@@ -6,9 +6,9 @@ console.log(string.endsWith('love')) // false
 console.log(string.endsWith('in this world')) // true
 
 let country = 'Finland'
-console.log(country.endsWith('land')) // true
+console.log(country.endsWith("land")) // true
 console.log(country.endsWith('fin')) // false
 console.log(country.endsWith('Fin')) //  false
 let age = 32;
-console.log(age.endsWith("3"))
-console.log(age.endsWith("2"))
+console.log(age.endsWith("3"))//false
+console.log(age.endsWith("2"))//true
