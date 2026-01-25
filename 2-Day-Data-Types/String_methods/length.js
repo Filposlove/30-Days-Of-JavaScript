@@ -2,7 +2,7 @@
 
 let js = 'JavaScript'
 console.log(js.length)        // 10
-let firstName = 'Phillpos'
-console.log(firstName.length) // 8
+let firstName = 'Philpos'
+console.log(firstName.length) // 7
 let age = "32";
 console.log(age.length)  // 2
