@@ -93,16 +93,14 @@ case 'threehour':
 }
 // Examples to use conditions in the cases
 
-let num = prompt('Enter number');
+// Exercise one
+let age = prompt('Enter age');
 switch (true) {
-  case num > 0:
-    console.log('Number is positive');
+  case age > 18:
+    console.log('you can drive bus');
     break;
-  case num == 0:
-    console.log('Numbers is zero');
-    break;
-  case num < 0:
-    console.log('Number is negative');
+  case age == 0:
+    console.log('you can not drive bus');
     break;
   default:
     console.log('Entered value was not a number');
