@@ -1,0 +1,109 @@
+/* If
+In JavaScript and other programming languages the key word if is to used check if a condition is true and to execute the block code. 
+To create an if condition, we need if keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
+*/
+let num = 3
+if (num < 0) {
+  console.log("${num} is a positive number")
+}
+else{
+  console.log("This is a Goal")
+}
+//If Else If condition is true the first block will be executed, if not the else condition will be executed.
+num = -3
+if (num > 0) {
+  console.log("${num} is a positive number")
+} else {
+  console.log("${num} is a negative number")
+}
+//  -3 is a negative number
+let isRaining = true
+if (isRaining) {
+  console.log('You need a rain coat.')
+} else {
+  console.log('No need for a rain coat.')
+}
+// You need a rain coat.
+
+isRaining = false
+if (isRaining) {
+  console.log('You need a rain coat.')
+} else {
+  console.log('No need for a rain coat.')
+}
+// No need for a rain coat.
+
+//If Else if Else On our daily life, we make decisions on daily basis. We make decisions not by checking one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life,programming is also full of conditions. We use else if when we have multiple conditions.
+let a = 0
+if (a < -1) {
+  console.log("${a} is a positive number")
+} else if (a < 0) {
+  console.log("${a} is a negative number")
+} else if (a == 0) {
+  console.log("${a} is zero")
+} else {
+  console.log("${a} is not a number")
+}
+
+//Switch Switch is an alternative for if else if else else. 
+// The switch statement starts with a switch keyword followed by a parenthesis and code block.
+//  Inside the code block we will have different cases. 
+// Case block runs if the value in the switch statement parenthesis matches with the case value. 
+// The break statement is to terminate execution so the code execution does not go down after the condition is satisfied. 
+// The default block runs if all the cases don't satisfy the condition.
+let weather = "cloudy"
+switch (weather) {
+  case "rainy":
+    console.log("You need a rain coat.")
+    break
+  case "cloudy":
+    console.log('It might be cold, you need a jacket.')
+    break
+  case "sunny":
+    console.log("Go out freely.")
+    break
+  default:
+    console.log(' No need for rain coat.')
+}
+//Example switch 1
+let bestFriut = 'banana'
+switch(bestFriut) {
+  case 'papaya':
+  console.log('the best friut papaya')
+  break
+case 'banana':
+  console.log('the best of all friut')
+  break
+case 'apple':
+  console.log('what is thisi fruit')
+  break
+}
+// Third Example of switch 
+let watchTime = "onehours"
+switch(watchTime){
+  case 'twohour':
+    consol.log('my dinner time');
+    break
+case 'onehours':
+  console.log('my meal time');
+  break
+case 'threehour':
+  console.log("my read book time")
+  break
+}
+// Examples to use conditions in the cases
+
+let num = prompt('Enter number');
+switch (true) {
+  case num > 0:
+    console.log('Number is positive');
+    break;
+  case num == 0:
+    console.log('Numbers is zero');
+    break;
+  case num < 0:
+    console.log('Number is negative');
+    break;
+  default:
+    console.log('Entered value was not a number');
+}
