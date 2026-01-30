@@ -45,3 +45,6 @@ console.log(message);
 let band = "gold and silver";
 bandUpper = band.toUpperCase();
 console.log(`Favourite Band, ${bandUpper}`);
+//labirary of function
+let squareRoot = Math.sqrt(9);
+console.log("square root of 9 is", squareRoot)
