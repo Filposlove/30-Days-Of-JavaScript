@@ -22,3 +22,9 @@ function addNumbers(add1, add2 ){
   console.log(`Sum, ${give} `)
 }
 addNumbers(7, 9);
+//retun statment in function
+function findSquare(num){
+  return num * num;
+}
+let square = findSquare(8)
+console.log(`Square, ${square}`);
