@@ -9,7 +9,7 @@ function greet(work){
 }
 greet("Priest")
 */
-// Add two number in one function
+/*// Add two number in one function
 // function with two arguments
 function addNumbers(num1, num2) {
     let sum = num1 + num2;
@@ -28,3 +28,16 @@ function findSquare(num){
 }
 let square = findSquare(8)
 console.log(`Square, ${square}`);
+*/
+//
+function formMassage() {
+
+    console.log("I want you now.");
+
+    return "Coming now to the cafe.";
+
+    console.log("This will not be executed.");
+}
+
+let message = formMassage();
+console.log(message);  
