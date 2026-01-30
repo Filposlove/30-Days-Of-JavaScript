@@ -41,3 +41,7 @@ function formMassage() {
 
 let message = formMassage();
 console.log(message);  
+//
+let band = "gold and silver";
+bandUpper = band.toUpperCase();
+console.log(`Favourite Band, ${bandUpper}`);
